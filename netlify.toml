@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  # publish is not used directly for Next.js with the plugin; Netlify will create the right output.
+  publish = "public"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

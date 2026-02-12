@@ -1,0 +1,148 @@
+[debug] [2026-02-12T00:58:08.858Z] ----------------------------------------------------------------------
+[debug] [2026-02-12T00:58:08.861Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DoBuy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-02-12T00:58:08.861Z] CLI Version:   15.5.1
+[debug] [2026-02-12T00:58:08.861Z] Platform:      win32
+[debug] [2026-02-12T00:58:08.861Z] Node Version:  v25.6.0
+[debug] [2026-02-12T00:58:08.862Z] Time:          Thu Feb 12 2026 01:58:08 GMT+0100 (West Africa Time)
+[debug] [2026-02-12T00:58:08.862Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DoBuy\Documents\Devops\auth\New folder\tradecorrect-auth
+
+[debug] [2026-02-12T00:59:42.130Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\DoBuy\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:508:20)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1327:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:284:20)
+    at ReadStream.emit (node:events:520:22)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:508:20)
+    at addChunk (node:internal/streams/readable:564:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-02-12T00:59:46.021Z] ----------------------------------------------------------------------
+[debug] [2026-02-12T00:59:46.024Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DoBuy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2026-02-12T00:59:46.024Z] CLI Version:   15.5.1
+[debug] [2026-02-12T00:59:46.024Z] Platform:      win32
+[debug] [2026-02-12T00:59:46.024Z] Node Version:  v25.6.0
+[debug] [2026-02-12T00:59:46.025Z] Time:          Thu Feb 12 2026 01:59:46 GMT+0100 (West Africa Time)
+[debug] [2026-02-12T00:59:46.025Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DoBuy\Documents\Devops\auth\New folder\tradecorrect-auth
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-02-12T00:59:49.879Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-12T00:59:49.880Z] > authorizing via signed-in user (sudobroprod@gmail.com)
+[debug] [2026-02-12T00:59:49.883Z] Checked if tokens are valid: true, expires at: 1770861325344
+[debug] [2026-02-12T00:59:49.883Z] Checked if tokens are valid: true, expires at: 1770861325344
+[debug] [2026-02-12T00:59:49.886Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tradecorrect-limited [none]
+[debug] [2026-02-12T00:59:51.026Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tradecorrect-limited 200
+[debug] [2026-02-12T00:59:51.027Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tradecorrect-limited {"projectId":"tradecorrect-limited","projectNumber":"902972869109","displayName":"Tradecorrect","name":"projects/tradecorrect-limited","resources":{"hostingSite":"tradecorrect-limited"},"state":"ACTIVE","etag":"1_bb4d6fd8-7d9e-4d4c-89c4-79aecd556010"}
+[info] i  Using project tradecorrect-limited (Tradecorrect) . 
+[info] 
+=== Hosting Setup
+[debug] [2026-02-12T00:59:51.041Z] Checked if tokens are valid: true, expires at: 1770861325344
+[debug] [2026-02-12T00:59:51.041Z] Checked if tokens are valid: true, expires at: 1770861325344
+[debug] [2026-02-12T00:59:51.042Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tradecorrect-limited [none]
+[debug] [2026-02-12T00:59:51.425Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tradecorrect-limited 200
+[debug] [2026-02-12T00:59:51.425Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tradecorrect-limited {"projectId":"tradecorrect-limited","projectNumber":"902972869109","displayName":"Tradecorrect","name":"projects/tradecorrect-limited","resources":{"hostingSite":"tradecorrect-limited"},"state":"ACTIVE","etag":"1_bb4d6fd8-7d9e-4d4c-89c4-79aecd556010"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] 
+[info] i  Detected a .git folder at C:\Users\DoBuy\Documents\Devops\auth\New folder\tradecorrect-auth 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=322219679&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2026-02-12T01:00:47.853Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2026-02-12T01:00:47.854Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2026-02-12T01:00:49.367Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2026-02-12T01:00:49.367Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2026-02-12T01:00:49.378Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2026-02-12T01:00:50.128Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2026-02-12T01:00:50.129Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"sudobro-creator","id":112646122,"node_id":"U_kgDOBrbX6g","avatar_url":"https://avatars.githubusercontent.com/u/112646122?v=4","gravatar_id":"","url":"https://api.github.com/users/sudobro-creator","html_url":"https://github.com/sudobro-creator","followers_url":"https://api.github.com/users/sudobro-creator/followers","following_url":"https://api.github.com/users/sudobro-creator/following{/other_user}","gists_url":"https://api.github.com/users/sudobro-creator/gists{/gist_id}","starred_url":"https://api.github.com/users/sudobro-creator/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/sudobro-creator/subscriptions","organizations_url":"https://api.github.com/users/sudobro-creator/orgs","repos_url":"https://api.github.com/users/sudobro-creator/repos","events_url":"https://api.github.com/users/sudobro-creator/events{/privacy}","received_events_url":"https://api.github.com/users/sudobro-creator/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"Sudobro","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":"Cybersecurity || Devops","twitter_username":"sudobro","notification_email":null,"public_repos":23,"public_gists":0,"followers":20,"following":65,"created_at":"2022-09-01T15:52:59Z","updated_at":"2026-02-11T20:18:42Z","private_gists":0,"total_private_repos":4,"owned_private_repos":4,"disk_usage":103144,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as sudobro-creator 
+[info] 
+[debug] [2026-02-12T01:00:57.250Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2026-02-12T01:00:57.804Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2026-02-12T01:00:57.804Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2026-02-12T01:01:16.641Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2026-02-12T01:01:17.227Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2026-02-12T01:01:17.227Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2026-02-12T01:01:19.882Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2026-02-12T01:01:20.476Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2026-02-12T01:01:20.476Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2026-02-12T01:01:33.078Z] >>> [apiv2][query] GET https://api.github.com/repos/repository/actions/secrets/public-key type=owner
+[debug] [2026-02-12T01:01:34.680Z] <<< [apiv2][status] GET https://api.github.com/repos/repository/actions/secrets/public-key 404
+[debug] [2026-02-12T01:01:34.680Z] <<< [apiv2][body] GET https://api.github.com/repos/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2026-02-12T01:04:01.623Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\DoBuy\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:508:20)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1327:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:284:20)
+    at ReadStream.emit (node:events:520:22)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:508:20)
+    at addChunk (node:internal/streams/readable:564:12)
+[error] 
+[error] Error: An unexpected error has occurred.
